@@ -1,0 +1,19 @@
+.has-error .form-control {
+    border-color: #a94442;
+    background-color: #f2dede;
+}
+.has-error .help-block {
+    color: #a94442;
+}
+.has-error .control-label {
+    color: #a94442 !important; /* Red color for error */
+}
+
+.has-success .form-control {
+    border-color: green;
+    background-color: white;
+}
+
+.has-success .control-label {
+    color: green;
+}

@@ -1,0 +1,35 @@
+
+body{
+    min-height: 800px;
+    border: 8px solid black;
+    display:flex;
+   gap: 10px;
+   align-items: flex-start;
+   justify-content: flex-end;
+   
+}
+
+#box-1{
+   margin-right: auto;;
+}
+
+.box{
+    flex-grow: 1;
+    max-width: 300px;
+    min-width: 100px;;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 200px;
+    width: 200px;
+    background-color: #0071FF;
+    font-size: 40px;
+    display: flex;
+    
+}
+
+@media(max-width:575px){
+    body{
+        flex-wrap: wrap;
+    }
+}

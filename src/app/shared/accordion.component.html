@@ -1,0 +1,44 @@
+
+
+<div class="card mb-3" [ngClass]="{
+    'border-secondary bg-light': hasJustViewed,
+    'border-primary': !hasJustViewed
+  }">
+    <div class="card-header pointerCursor pointerCursor" (click)="isHidden=!isHidden"  [ngClass]="{
+      'bg-light text-dark': hasJustViewed,
+      'bg-primary text-white': !hasJustViewed
+    }">
+      <h5 class="card-title mb-0">{{ title|uppercase }}</h5>
+    </div>
+    <div class="card-body" [hidden]="isHidden">
+      <ng-content select=".myPanelBody"></ng-content>
+    </div>
+    <div class="card-footer"  [hidden]="isHidden">
+        <ng-content select=".myPanelFooter"></ng-content>
+
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
