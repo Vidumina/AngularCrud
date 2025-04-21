@@ -49,7 +49,6 @@ export class ListEmployeesComponent {
 
   constructor(private _router: Router, private _route: ActivatedRoute) {
 
-    console.log("Error is occur");
 
 
     const resolvedData: Employee[]|string = this._route.snapshot.data['employeeList'];

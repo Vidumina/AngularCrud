@@ -19,7 +19,12 @@ export class EmployeeDetailsComponent {
   ngOnInit(){
    this._route.paramMap.subscribe(params=>{
   this._id = +params.get('id')!;
-  this.employee= this._employeeService.getEmployeeById(this._id);
+  this._employeeService.getEmployeeById(this._id).subscribe(
+
+    (employee)=>this.employee=employee,
+    (err:any)=>console.log(err)
+    
+      );
 
 
    });

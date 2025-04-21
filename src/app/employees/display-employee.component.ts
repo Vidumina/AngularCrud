@@ -51,7 +51,10 @@ constructor(private _route:ActivatedRoute,private _router:Router,private _employ
 
 
   deleteEmployee() {
-    this._employeeService.deleteEmployee(this.employee.id);
+    this._employeeService.deleteEmployee(this.employee.id).subscribe(
+      ()=>console.log(`Employee with id =${this.employee.id}  deleted`),
+      (err)=>console.log(err),
+      );
     this.notifyDelete.emit(this.employee.id);
   }
 

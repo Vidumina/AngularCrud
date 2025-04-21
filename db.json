@@ -1,38 +1,50 @@
 {
-    "employees": [
-      {
-        "id": 1,
-        "name": "Nick",
-        "gender": "Male",
-        "contactPreference": "Email",
-        "email": "mark@pragimtech.com",
-        "dateOfBirth": "1988/10/25",
-        "department": "3",
-        "isActive": true,
-        "photoPath": "assets/images/mark.png"
-      },
-      {
-        "id": 2,
-        "name": "Mary",
-        "gender": "Female",
-        "contactPreference": "Phone",
-        "phoneNumber": 2345978640,
-        "dateOfBirth": "1979/11/20",
-        "department": "2",
-        "isActive": true,
-        "photoPath": "assets/images/mary.png"
-      },
-      {
-        "id": 3,
-        "name": "John",
-        "gender": "Male",
-        "contactPreference": "Phone",
-        "phoneNumber": 5432978640,
-        "dateOfBirth": "1976/3/25",
-        "department": "3",
-        "isActive": false,
-        "photoPath": "assets/images/john.png"
-      }
-    ]
-  }
-  
+  "employees": [
+    {
+      "id": "2",
+      "name": "Mary",
+      "gender": "Female",
+      "contactPreference": "Phone",
+      "phoneNumber": "0771355480",
+      "dateOfBirth": "1979/11/20",
+      "department": "2",
+      "isActive": true,
+      "photoPath": "assets/images/mary.png"
+    },
+    {
+      "id": "3",
+      "name": "John",
+      "gender": "Male",
+      "contactPreference": "Phone",
+      "phoneNumber": 5432978640,
+      "dateOfBirth": "1976/3/25",
+      "department": "3",
+      "isActive": false,
+      "photoPath": "assets/images/john.png"
+    },
+    {
+      "id": "4",
+      "name": "tom",
+      "gender": "Female",
+      "email": "tom@gmail.com",
+      "phoneNumber": "0771355480",
+      "contactPreference": "Phone",
+      "dateOfBirth": "1992-10-24T18:30:00.000Z",
+      "department": "3",
+      "isActive": true,
+      "photoPath": "assets/images/mark.png"
+    },
+    {
+      "id": "5",
+      "name": "Ruwan",
+      "gender": "Male",
+      "email": "ruwan@gmail.com",
+      "phoneNumber": "03883883",
+      "contactPreference": "Phone",
+      "dateOfBirth": "1992-10-24T18:30:00.000Z",
+      "department": "4",
+      "isActive": true,
+      "photoPath": "assets/images/mark.png"
+    }
+  ]
+}
